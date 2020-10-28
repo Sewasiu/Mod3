@@ -1,0 +1,15 @@
+<style>
+body{
+	 background-color: #E0ECDE;
+    margin: auto;
+    max-width: 90%;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.heading {
+font-family:  "Krona One","Turret Road","Itim";
+position: center;
+}
+
+
+
+</style>
