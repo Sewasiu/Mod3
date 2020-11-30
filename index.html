@@ -1,190 +1,119 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
+<head>
+  <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Module3</title>
-  
-    
-<body>
-  <style>body {
-  font-size: 16px;
-  color: #fff;
-  background-color: #A28089;
-  font-family: 'Oxygen', sans-serif;
+  <title>Module3</title>
+  <style> 
+    @media (min-width: 1200px) {
+
+    .col-lg-1, .col-lg-2,.col-lg-3, .col-lg-4, 
+    .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, 
+    .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12   } 
+    {
+        float: left;
+    }
+
+    .col-lg-1 {
+        width: 8.33%;
+    }
+
+    .col-lg-2 {
+        width: 16.66%;
+    }
+
+    .col-lg-3 {
+        width: 25%;
+    }
+    .col-lg-4 {
+width: 33%;
+    }
+.col-lg-5 {
+width: 41.66%;
+}
+.col-lg-6 {
+width: 50%;
+}
+.col-lg-7 {
+width: 58.33%;
+}
+.col-lg-8 {
+width: 66.66%;
+}
+.col-lg-9 {
+width: 74.99%;
+}
+.col-lg-10 {
+width: 83.33%;
+}
+.col-lg-11 {
+width: 91.66%;
+}
+.col-lg-12{
+width: 100%;
+}
 }
 
-/** HEADER **/
-#header-nav {
-  background-color: #f6b319;
-  border-radius: 0;
-  border: 0;
-}
+    @media (min-width: 950px) and (max-width: 1199px) {
 
-#logo-img {
-  background: url('../images/restaurant-logo_large.png') no-repeat;
-  width: 150px;
-  height: 150px;
-  margin: 10px 15px 10px 0;
-}
+        .col-md-1, .col-md-2, .col-md-3, .col-md-4, 
+        .col-md-5, .col-md-6, .col-md-7, .col-md-8, 
+        .col-md-9, .col-md-10, .col-md-11, .col-md-12
+        {
+            float: left;
+        } 
 
-.navbar-brand {
-  padding-top: 25px;
-}
+        .col-md-1 {
+            width: 8.33%;
+        }
 
-.navbar-brand h1 { /* Restaurant name */
-  font-family: 'Lora', serif;
-  color: #557c3e;
-  font-size: 1.5em;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-shadow: 1px 1px 1px #222;
-  margin-top: 0,5;
-  margin-bottom: 0;
-  line-height: .75;
+        .col-md-2 {
+            width: 16.66%;
+        }
 
+        .col-md-3 {
+            width: 25%;
+        }
+.col-md-4 {
+width: 33%;
 }
-.navbar-brand a:hover, .navbar-brand a:focus {
-  text-decoration: none;
+.col-md-5 {
+width: 41.66%;
 }
-.navbar-brand p { /* Kosher cert */
-  color: #000;
-  text-transform: uppercase;
-  font-size: .7em;
-  margin-top: 15px;
+.col-md-6 {
+width: 50%;
 }
-.navbar-brand p span { /* Star-K */
-  vertical-align: middle;
+.col-md-7 {
+width: 58.33%;
 }
-
-#nav-list {
-  margin-top: 10px;
+.col-md-8 {
+width: 66.66%;
 }
-#nav-list a {
-  color: #951C49;
-  text-align: center;
+.col-md-9 {
+width: 74.99%;
 }
-#nav-list a:hover {
-  background: #E7E7E7;
+.col-md-10 {
+width: 83.33%;
 }
-#nav-list a span {
-  font-size: 1.8em;
+.col-md-11 {
+width: 91.66%;
 }
-
-#phone {
-  margin-top: 5px;
+.col-md-12 {
+width: 100%;
 }
-#phone a { /* Phone number */
-  text-align: right;
-  padding-bottom: 0;
-}
-#phone div { /* We Deliver */
-  color: #557c3e;
-  text-align: right;
-  padding-right: 15px;
-}
-
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
-}
-.navbar-header button.navbar-toggle {
-  clear: both;
-  margin-top: -30px;
-}
-
 }
 </style>
-  <header>
-    <nav id="header-nav" class="navbar navbar-default">
-      <div class="container">
-        <div class="navbar-header">
-          <a href="index.html" class="pull-left visible-md visible-lg">
-            <div id="logo-img"></div>
-          </a>
-
-          <div class="navbar-brand">
-            <a href="index.html"><h1>Food.lcc</h1></a>
-         
-          </div>
-
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-
-        <div id="collapsable-nav" class="collapse navbar-collapse">
-           <ul id="nav-list" class="nav navbar-nav navbar-right">
-            <li>
-              <a href="menu-categories.html">
-                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
-            </li>
-            <li>
-              <a href="#">
-                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
-            </li>
-            <li>
-              <a href="#">
-                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards</a>
-            </li>
-            <li id="phone" class="hidden-xs">
-              <a href="tel:410-602-5008">
-                <span>410-602-5008</span></a><div>* We Deliver</div>
-            </li>
-          </ul><!-- #nav-list -->
-        </div><!-- .collapse .navbar-collapse -->
-      </div><!-- .container -->
-    </nav><!-- #header-nav -->
+</head>
+<body>
+  <header class="header">
+    <h1> Food,LCC </h1>
   </header>
-
-  <div id="call-btn" class="visible-xs">
-    <a class="btn" href="tel:410-602-5008">
-    <span class="glyphicon glyphicon-earphone"></span>
-    410-602-5008
-    </a>
-  </div>
-  <div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
-
-  <div id="main-content" class="container">
-    <div class="jumbotron">
-      <img src="images/jumbotron_768.jpg" alt="Picture of restaurant" class="img-responsive visible-xs">
-    </div>
-
-    <div id="home-tiles" class="row">
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <a href="menu-categories.html"><div id="menu-tile"><span>menu</span></div></a>
-      </div>
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <a href="single-category.html"><div id="specials-tile"><span>specials</span></div></a>
-      </div>
-      <div class="col-md-4 col-sm-12 col-xs-12">
-        <a href="https://www.google.com/maps/place/David+Chu's+China+Bistro/@39.3635874,-76.7138622,17z/data=!4m6!1m3!3m2!1s0x89c81a14e7817803:0xab20a0e99daa17ea!2sDavid+Chu's+China+Bistro!3m1!1s0x89c81a14e7817803:0xab20a0e99daa17ea" target="_blank">
-          <div id="map-tile">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3084.675372390488!2d-76.71386218529199!3d39.3635874269356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c81a14e7817803%3A0xab20a0e99daa17ea!2sDavid+Chu&#39;s+China+Bistro!5e0!3m2!1sen!2sus!4v1452824864156" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
-            <span>map</span>
-          </div>
-        </a>
-      </div>
-    </div><!-- End of #home-tiles -->
-  </div><!-- End of #main-content -->
-
-  <footer class="panel-footer">
-    <div class="container">
-      <div class="row">
-       
-       
-      </div>
-      <div class="text-center">&copy; Copyright David Chu's China Bistro 2016</div>
-    </div>
-  </footer>
-
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-2.1.4.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
+  <div class="First" class="col-lg-4 col-md-6">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
 
 </body>
 </html>
